@@ -1,0 +1,75 @@
+/* ===== PAGE STYLING ===== */
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER MAIN */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* SECTIONS */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* NAVIGATION */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+tfoot td {
+    text-align: center;
+    font-style: italic;
+    border-top: 2px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
